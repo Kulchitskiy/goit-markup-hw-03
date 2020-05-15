@@ -1,0 +1,228 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --button-primary-color: #f5f4fa;
+  --button-focus-color: #2196f3;
+}
+
+body {
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+}
+
+/* Лого сайта */
+
+.site-logo {
+  color: var(--title-text-color);
+
+  font-family: Raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.37;
+}
+.site-logo span {
+  color: var(--accent-color);
+}
+/* адрес относиться к логотипу футера*/
+.site-logo .studio-color {
+  color: var(--primary-white-color);
+}
+
+/* Список навигации страниц сайта */
+.site-list .list-item {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-list .list-item:hover,
+.site-list .list-item:focus {
+  color: var(--accent-color);
+}
+
+/* Список контактов с представителями сайта */
+.site-contacts .contacts-item {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+.site-contacts .contacts-item:hover,
+.site-contacts .contacts-item:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.hero-title {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+}
+.button-hero:focus {
+  color: var(--accent-color);
+}
+
+/* Преимущества */
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+.advantages-text {
+  color: var(--primary-text-color);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+}
+/* Чем мы занимаемся */
+.we-do-item,
+.follow {
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+/* Наша команда */
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.member-specialty {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* Ссылки на социальные сети */
+.social-networks-item {
+  color: var(--primary-text-color);
+}
+.social-networks-item:hover,
+.social-networks-item:focus {
+  color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.street {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contacts:focus,
+.footer-contacts:hover {
+  color: var(--accent-color);
+}
+
+.footnote {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.4);
+}
+/*Страница портфоли main */
+
+button {
+  background-color: var(--button-primary-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+}
+button:hover,
+button:focus {
+  background-color: var(--button-focus-color);
+  color: var(--primary-white-color);
+}
+.portfolio-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+.portfolio-description {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.portfolio-text {
+  color: var(--primary-white-color);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* Подсвечивание активнрй страницы */
+.list-item.active-page {
+  color: var(--accent-color);
+}
