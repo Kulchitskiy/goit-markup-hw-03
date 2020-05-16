@@ -161,10 +161,12 @@ h5 {
 /* Преимущества */
 .advantages-list {
   display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 250px;
-  margin-top: 94px;
+  justify-content: space-between;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.advantages-list .item {
+  width: 278px;
 }
 
 .advantages-title {
@@ -173,17 +175,21 @@ h5 {
   line-height: 1.14;
 
   text-transform: uppercase;
+  margin: 0px;
   margin-bottom: 10px;
+  padding: 0px;
 }
 .picture {
   margin-bottom: 30px;
 }
 .advantages-text {
+  display: inline;
   color: var(--primary-text-color);
 
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71px;
+  margin: 0px;
 }
 /* Чем мы занимаемся */
 .we-do-item,
