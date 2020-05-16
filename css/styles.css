@@ -192,7 +192,12 @@ h5 {
   margin: 0px;
 }
 /* Чем мы занимаемся */
-.we-do-item,
+.we-do-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+.we-do-title,
 .follow {
   color: var(--primary-white-color);
 
@@ -201,6 +206,12 @@ h5 {
   line-height: 1.14;
 
   text-transform: uppercase;
+}
+.we-do .title {
+  margin-bottom: 50px;
+}
+.we-do-title {
+  margin-top: -20px;
 }
 /* Наша команда */
 .team-member {
