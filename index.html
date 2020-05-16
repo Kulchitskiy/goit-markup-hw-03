@@ -52,7 +52,7 @@
 
     <main>
       <!--Секция герой-->
-      <section class="hero">
+      <section class="hero container">
         <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
         <button class="button-hero">Заказать услугу</button>
       </section>
@@ -159,13 +159,14 @@
       <section class="team">
         <h2 class="title team-title">Наша команда</h2>
 
-        <ul>
-          <li>
+        <ul class="team-list container">
+          <li class="team-item">
             <img
               src="./img/JohnSmith.jpg"
               alt="Фотография Джона Смита "
               width="278"
               height="260"
+              class="photo-member"
             />
             <h3 class="team-member">John Smith</h3>
             <p class="member-specialty">Product Designer</p>
@@ -210,6 +211,7 @@
               alt="Фотография Марты Стюарт "
               width="278"
               height="260"
+              class="photo-member"
             />
             <h3 class="team-member">Marta Stewart</h3>
             <p class="member-specialty">Frontend Developer</p>
@@ -254,6 +256,7 @@
               alt="Фотография Роберта Якиса "
               width="278"
               height="260"
+              class="photo-member"
             />
             <h3 class="team-member">Robert Jakis</h3>
             <p class="member-specialty">Marketing</p>
@@ -298,6 +301,7 @@
               alt="Фотография Мартина До "
               width="278"
               height="260"
+              class="photo-member"
             />
             <h3 class="team-member">Martin Doe</h3>
             <p class="member-specialty">UI Designer</p>
@@ -339,35 +343,36 @@
         </ul>
       </section>
       <!--Постоянные клиенты-->
-      <section>
+      <section class="clients">
         <h2 class="title">Постоянные клиенты</h2>
-        <ul>
-          <li>
+        <ul class="list container">
+          <li class="client-item">
             <a href="">
               <img src="./img/client1.svg" alt="клиент 1" />
             </a>
           </li>
-          <li>
+          <li class="client-item">
             <a href="">
               <img src="./img/client2.svg" alt="клиент 2" />
             </a>
           </li>
-          <li>
+          <li class="client-item">
             <a href="">
               <img src="./img/client3.svg" alt="клиент 3" />
             </a>
           </li>
-          <li>
+          <li class="client-item">
             <a href="">
               <img src="./img/client4.svg" alt="клиент 4" />
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="client-item">
+            <a href="" class="client-link">
               <img src="./img/client5.svg" alt="клиент 5" />
             </a>
           </li>
-          <li>
+
+          <li class="client-item">
             <a href="">
               <img src="./img/client6.svg" alt="клиент 6" />
             </a>
@@ -377,58 +382,68 @@
     </main>
 
     <footer>
-      <a href="" class="site-logo"
-        ><span>Web</span> <span class="studio-color">Studio</span>
-      </a>
-      <address class="address">
-        <p class="street">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="site-contacts">
+      <div class="down container">
+        <div
+        class="address-flex">
+        <a href="" class="site-logo"
+          ><span>Web</span> <span class="studio-color">Studio</span>
+        </a>
+        <address class="address">
+          <p class="street">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="address-list">
+            <li class="item">
+              <a href="mailto:info@example.com" class="footer-contacts"
+                >info@example.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+380991111111" class="footer-contacts"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+          </div>
+        </address>
+        <div class="footer-flex">
+        <h3 class="follow">Присоединяйтесь</h3>
+
+        <ul class="social-networks">
           <li>
-            <a href="mailto:info@example.com" class="footer-contacts"
-              >info@example.com</a
+            <a
+              href=""
+              aria-label="Ссылка на Instagram"
+              class="social-networks-item"
+              >Instagram</a
             >
           </li>
           <li>
-            <a href="tel:+380991111111" class="footer-contacts"
-              >+38 099 111 11 11</a
+            <a
+              href=""
+              aria-label="Ссылка на Twitter"
+              class="social-networks-item"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              aria-label="Ссылка на Facebook"
+              class="social-networks-item"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              aria-label="Ссылка на LinkedIn"
+              class="social-networks-item"
+              >LinkedIn</a
             >
           </li>
         </ul>
-      </address>
-      <h3 class="follow">Присоединяйтесь</h3>
-
-      <ul class="social-networks">
-        <li>
-          <a
-            href=""
-            aria-label="Ссылка на Instagram"
-            class="social-networks-item"
-            >Instagram</a
-          >
-        </li>
-        <li>
-          <a href="" aria-label="Ссылка на Twitter" class="social-networks-item"
-            >Twitter</a
-          >
-        </li>
-        <li>
-          <a
-            href=""
-            aria-label="Ссылка на Facebook"
-            class="social-networks-item"
-            >Facebook</a
-          >
-        </li>
-        <li>
-          <a
-            href=""
-            aria-label="Ссылка на LinkedIn"
-            class="social-networks-item"
-            >LinkedIn</a
-          >
-        </li>
-      </ul>
-      <p class="footnote">2020 | Developed by GoIT Students</p>
+        </div>
+        <p class="footnote">2020 | Developed by GoIT Students</p>
+      </div>
     </footer>
   </body>
 </html>

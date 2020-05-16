@@ -55,6 +55,7 @@ h5 {
 }
 .site-nav {
   display: flex;
+  align-items: center;
 }
 
 /* Лого сайта */
@@ -95,6 +96,10 @@ h5 {
   margin: 0px;
   margin-left: 86px;
   align-items: center;
+}
+.site-list .item {
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 .site-list .item:not(:last-child) {
   margin-right: 50px;
@@ -159,6 +164,9 @@ h5 {
 }
 
 /* Преимущества */
+.advantages h2 {
+  text-align: center;
+}
 .advantages-list {
   display: flex;
   justify-content: space-between;
@@ -196,6 +204,8 @@ h5 {
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .we-do-title,
 .follow {
@@ -214,10 +224,28 @@ h5 {
   margin-top: -20px;
 }
 /* Наша команда */
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team .title {
+  margin-bottom: 50px;
+}
+.team-list {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+.photo-member {
+  margin-bottom: 30px;
+}
 .team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .member-specialty {
   color: var(--primary-text-color);
@@ -225,6 +253,9 @@ h5 {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  margin: 0px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 /* Ссылки на социальные сети */
 .social-networks-item {
@@ -233,6 +264,45 @@ h5 {
 .social-networks-item:hover,
 .social-networks-item:focus {
   color: var(--accent-color);
+}
+.social-networks {
+  display: flex;
+  padding: 0px;
+  padding-bottom: 36px;
+  margin: 0px;
+}
+
+/* Клиенты */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients .title {
+  margin-bottom: 50px;
+}
+.clients .list {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+.client-item {
+  display: flex;
+  width: 175px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+/* Footer */
+.down {
+  padding-top: 48px;
+  padding-bottom: 21px;
 }
 
 .address {
@@ -246,6 +316,25 @@ h5 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  margin: 0px;
+  margin-bottom: 9px;
+}
+.address-flex {
+  margin-right: 179px;
+}
+.footer-flex .social-networks {
+  padding-bottom: 0px;
+}
+.footer-flex .site-logo {
+  margin-bottom: 20px;
+}
+
+.down {
+  display: flex;
+}
+.address-list {
+  margin: 0px;
+  padding: 0px;
 }
 
 .footer-contacts {
@@ -253,10 +342,14 @@ h5 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  display: inline-block;
 }
 .footer-contacts:focus,
 .footer-contacts:hover {
   color: var(--accent-color);
+}
+.follow {
+  margin-bottom: 21px;
 }
 
 .footnote {
@@ -264,6 +357,8 @@ h5 {
   font-size: 12px;
   line-height: 2;
   color: rgba(255, 255, 255, 0.4);
+  margin: 0px;
+  text-align: center;
 }
 /*Страница портфоли main */
 
