@@ -8,30 +8,38 @@
       rel="stylesheet"
       href="//fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav class="site-nav">
-        <a href="./index.html" class="site-logo"> <span>Web</span> Studio</a>
+      <div class="site-header container">
+        <nav class="site-nav">
+          <a href="./index.html" class="site-logo"> <span>Web</span> Studio</a>
 
-        <ul class="site-list">
-          <li>
-            <a href="./index.html" class="list-item active-page">Студия</a>
-          </li>
-          <li><a href="./portfolio.html" class="list-item">Портфолио</a></li>
-          <li><a href="" class="list-item">Контакты</a></li>
-        </ul>
+          <ul class="site-list">
+            <li class="item">
+              <a href="./index.html" class="list-item active-page">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="list-item">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="list-item">Контакты</a></li>
+          </ul>
+        </nav>
 
         <address>
           <ul class="site-contacts">
-            <li>
+            <li class="item">
               <img src="./img/envelope(hover).svg" alt="Иконка почта" />
               <a href="mailto:info@devstudio.com" class="contacts-item"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="item">
               <img src="./img/Vector.svg" alt="Иконка телефон" />
               <a href="tel:+380961111111" class="contacts-item"
                 >+38 096 111 11 11</a
@@ -39,7 +47,7 @@
             </li>
           </ul>
         </address>
-      </nav>
+      </div>
     </header>
 
     <main>
@@ -51,10 +59,14 @@
       <!--Преимущества-->
       <section class="advantages">
         <h2>Преимущества комапании</h2>
-        <ul>
-          <li>
+        <ul class="advantages-list container">
+          <li class="item">
             <a href="">
-              <img src="./img/antenna1.svg" alt="Изображение антены" />
+              <img
+                src="./img/antenna1.svg"
+                alt="Изображение антены"
+                class="picture"
+              />
             </a>
             <h3 class="advantages-title">Внимание к деталям</h3>
             <p class="advantages-text">
@@ -63,9 +75,13 @@
             </p>
           </li>
 
-          <li>
+          <li class="item">
             <a href="">
-              <img src="./img/clock1.svg" alt="Изображение часов" />
+              <img
+                src="./img/clock1.svg"
+                alt="Изображение часов"
+                class="picture"
+              />
             </a>
             <h3 class="advantages-title">Пунктуальность</h3>
             <p class="advantages-text">
@@ -73,9 +89,13 @@
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="item">
             <a href="">
-              <img src="./img/diagram1.svg" alt="Изображение компьютера" />
+              <img
+                src="./img/diagram1.svg"
+                alt="Изображение компьютера"
+                class="picture"
+              />
             </a>
             <h3 class="advantages-title">Планирование</h3>
             <p class="advantages-text">
@@ -83,9 +103,13 @@
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="item">
             <a href="">
-              <img src="./img/astronaut1.svg" alt="Изображение астронавта" />
+              <img
+                src="./img/astronaut1.svg"
+                alt="Изображение астронавта"
+                class="picture"
+              />
             </a>
             <h3 class="advantages-title">Современные технологии</h3>
             <p class="advantages-text">
