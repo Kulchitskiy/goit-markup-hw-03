@@ -42,8 +42,9 @@ h5 {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
   text-align: center;
+  margin-bottom: 50px;
+  outline: 2px solid tomato;
 }
 
 .container {
@@ -73,7 +74,7 @@ h5 {
 
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.37;
+  /* line-height: 1.37; */
 }
 .site-logo span {
   color: var(--accent-color);
@@ -142,6 +143,8 @@ h5 {
 }
 .hero-title {
   color: var(--primary-white-color);
+  margin: 0;
+  margin-bottom: 46px;
 
   font-weight: 900;
   font-size: 44px;
@@ -150,8 +153,6 @@ h5 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 46px;
 }
 
 .button-hero {
@@ -170,14 +171,18 @@ h5 {
 }
 
 /* Преимущества */
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .advantages h2 {
   text-align: center;
 }
 .advantages-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
   margin: 0px;
 }
 .advantages-list .item {
@@ -207,10 +212,14 @@ h5 {
   margin: 0px;
 }
 /* Чем мы занимаемся */
+.we-do {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .we-do-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
+
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -235,13 +244,16 @@ h5 {
   padding-top: 94px;
   padding-bottom: 94px;
 } */
-.team .title {
+.team {
+  padding-top: 186px;
+  padding-bottom: 94px;
+}
+.team-title {
   margin-bottom: 50px;
 }
 .team-list {
   display: flex;
-  padding-top: 186px;
-  padding-bottom: 94px;
+
   margin-top: 0px;
   margin-bottom: 0px;
   justify-content: space-between;
@@ -280,8 +292,7 @@ h5 {
   margin-bottom: 36px;
 }
 
-/* Клиенты */
-.clients {
+.our-clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
