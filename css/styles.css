@@ -142,9 +142,9 @@ h5 {
   text-align: center;
 }
 .hero-title {
-  color: var(--primary-white-color);
   margin: 0;
   margin-bottom: 46px;
+  color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -156,6 +156,7 @@ h5 {
 }
 
 .button-hero {
+  padding: 0;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
@@ -164,7 +165,6 @@ h5 {
   line-height: 1.87;
 
   letter-spacing: 0.06em;
-  padding: 0;
 }
 .button-hero:focus {
   color: var(--accent-color);
@@ -190,14 +190,15 @@ h5 {
 }
 
 .advantages-title {
+  margin: 0px;
+
+  padding: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 
   text-transform: uppercase;
-  margin: 0px;
-  margin-bottom: 10px;
-  padding: 0px;
 }
 .picture {
   margin-bottom: 30px;
@@ -239,13 +240,9 @@ h5 {
 .we-do-title {
   margin-top: -20px;
 }
-/* Наша команда */
-/* .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
+
 .team {
-  padding-top: 186px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .team-title {
@@ -262,21 +259,22 @@ h5 {
   margin-bottom: 30px;
 }
 .team-member {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 10px;
+
   text-align: center;
 }
 .member-specialty {
+  margin: 0px;
+  margin-bottom: 30px;
+  text-align: center;
   color: var(--primary-text-color);
 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  margin: 0px;
-  margin-bottom: 30px;
-  text-align: center;
 }
 /* Ссылки на социальные сети */
 .social-networks-item {
@@ -398,12 +396,12 @@ h5 {
 }
 
 button {
+  padding: 0px;
   background-color: var(--button-primary-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  padding: 0px;
 
   text-align: center;
 }
@@ -441,14 +439,14 @@ button:focus {
   margin-top: 20px;
 }
 .portfolio-description {
+  margin: 0px;
+  margin-top: 9px;
+  margin-bottom: 20px;
   color: var(--primary-text-color);
 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  margin: 0px;
-  margin-top: 9px;
-  margin-bottom: 20px;
 }
 .portfolio-text {
   color: var(--primary-white-color);
