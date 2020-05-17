@@ -13,57 +13,58 @@
 
   <body>
     <header>
-      <nav class="site-nav">
-        <a href="./index.html" class="site-logo"> <span>Web</span> Studio</a>
-
-        <ul class="site-list">
-          <li>
-            <a href="./index.html" class="list-item">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="list-item active-page"
-              >Портфолио</a
-            >
-          </li>
-          <li><a href="" class="list-item">Контакты</a></li>
-        </ul>
-
+      <div class="site-header container">
+        <nav class="site-nav">
+          <a href="./index.html" class="site-logo"> <span>Web</span> Studio</a>
+    
+          <ul class="site-list">
+            <li class="item">
+              <a href="./index.html" class="list-item ">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="list-item active-page">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="list-item">Контакты</a></li>
+          </ul>
+        </nav>
+    
         <address>
           <ul class="site-contacts">
-            <li>
+            <li class="item">
               <img src="./img/envelope(hover).svg" alt="Иконка почта" />
-              <a href="mailto:info@devstudio.com" class="contacts-item"
-                >info@devstudio.com</a
-              >
+              <a href="mailto:info@devstudio.com" class="contacts-item">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="item">
               <img src="./img/Vector.svg" alt="Иконка телефон" />
-              <a href="tel:+380961111111" class="contacts-item"
-                >+38 096 111 11 11</a
-              >
+              <a href="tel:+380961111111" class="contacts-item">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
-      </nav>
+      </div>
     </header>
 
     <main>
       <section>
         <!-- Навигация портфоли -->
-        <h1>Портфолио нашей команды</h1>
-
+        
+<div
+class="container">
+<h1 class="accessibility">Портфолио нашей команды</h1>
         <ul class="choice-list">
-          <li><button type="button" class="choice-item">Все</button></li>
-          <li><button type="button" class="choice-item">Веб-сайты</button></li>
-          <li><button type="button" class="choice-item">Приложения</button></li>
-          <li><button type="button" class="choice-item">Дизайн</button></li>
-          <li><button type="button" class="choice-item">Маркетинг</button></li>
+          <li class="item"><button type="button" class="choice-item">Все</button></li>
+          <li class="item"><button type="button" class="choice-item">Веб-сайты</button></li>
+          <li class="item"><button type="button" class="choice-item">Приложения</button></li>
+          <li class="item"><button type="button" class="choice-item">Дизайн</button></li>
+          <li class="item"><button type="button" class="choice-item">Маркетинг</button></li>
         </ul>
+        </div>
       </section>
 
       <!-- Портфолио команды -->
-      <ul class="porpfolio">
-        <li>
+      <section>
+      <div class="container">
+      <ul class="portfolio">
+        <li class="item">
           <a href=""
             ><img
               src="./img/laptop_second.jpg "
@@ -80,7 +81,7 @@
             </p></a
           >
         </li>
-        <li>
+        <li class="item">
           <a href=""
             ><img
               src="./img/poster_basketball.jpg"
@@ -97,7 +98,7 @@
             </p></a
           >
         </li>
-        <li>
+        <li class="item">
           <a href=""
             ><img
               src="./img/seafood.jpg"
@@ -114,7 +115,7 @@
             </p></a
           >
         </li>
-        <li>
+        <li class="item">
           <a href=""
             ><img
               src="./img/headphones.jpg"
@@ -131,7 +132,7 @@
             </p></a
           >
         </li>
-        <li>
+        <li class="item">
           <a href=""
             ><img
               src="./img/boxes.jpg"
@@ -149,7 +150,7 @@
           >
         </li>
 
-        <li>
+        <li class="item">
           <a href=""
             ><img
               src="./img/monitor.jpg"
@@ -166,7 +167,7 @@
             </p></a
           >
         </li>
-        <li>
+        <li class="item">
           <a href=""
             ><img
               src="./img/book.jpg"
@@ -183,7 +184,7 @@
             </p></a
           >
         </li>
-        <li>
+        <li class="item">
           <a href=""
             ><img
               src="./img/labeltag.jpg"
@@ -200,7 +201,7 @@
             </p></a
           >
         </li>
-        <li>
+        <li class="item">
           <a href=""
             ><img
               src="./img/laptop.jpg"
@@ -218,60 +219,46 @@
           >
         </li>
       </ul>
+      </div>
+      </section>
     </main>
     <footer>
-      <a href="" class="site-logo"
-        ><span>Web</span> <span class="studio-color">Studio</span>
-      </a>
-      <address class="address">
-        <p class="street">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="site-contacts">
-          <li>
-            <a href="mailto:info@example.com" class="footer-contacts"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380991111111" class="footer-contacts"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
-      <h3 class="follow">Присоединяйтесь</h3>
-
-      <ul class="social-networks">
-        <li>
-          <a
-            href=""
-            aria-label="Ссылка на Instagram"
-            class="social-networks-item"
-            >Instagram</a
-          >
-        </li>
-        <li>
-          <a href="" aria-label="Ссылка на Twitter" class="social-networks-item"
-            >Twitter</a
-          >
-        </li>
-        <li>
-          <a
-            href=""
-            aria-label="Ссылка на Facebook"
-            class="social-networks-item"
-            >Facebook</a
-          >
-        </li>
-        <li>
-          <a
-            href=""
-            aria-label="Ссылка на LinkedIn"
-            class="social-networks-item"
-            >LinkedIn</a
-          >
-        </li>
-      </ul>
-      <p class="footnote">2020 | Developed by GoIT Students</p>
+      <div class="down container">
+        <div class="address-flex">
+          <a href="" class="site-logo"><span>Web</span> <span class="studio-color">Studio</span>
+          </a>
+          <address class="address">
+            <p class="street">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address-list">
+              <li class="item">
+                <a href="mailto:info@example.com" class="footer-contacts">info@example.com</a>
+              </li>
+              <li class="item">
+                <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a>
+              </li>
+            </ul>
+        </div>
+        </address>
+        <div class="footer-flex">
+          <h3 class="follow">Присоединяйтесь</h3>
+    
+          <ul class="social-networks">
+            <li>
+              <a href="" aria-label="Ссылка на Instagram" class="social-networks-item">Instagram</a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на Twitter" class="social-networks-item">Twitter</a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на Facebook" class="social-networks-item">Facebook</a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на LinkedIn" class="social-networks-item">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+        <p class="footnote">2020 | Developed by GoIT Students</p>
+      </div>
     </footer>
   </body>
 </html>
