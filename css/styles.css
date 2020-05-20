@@ -11,7 +11,7 @@ font-family: 'Raleway', sans-serif; */
 }
 
 body {
-  /* background-color: var(--button-primary-color); */
+  background-color: var(--button-primary-color);
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -48,10 +48,10 @@ h5 {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 .border-nav {
   border-bottom: 1px solid #ececec;
@@ -141,10 +141,13 @@ h5 {
 
 /* Герой */
 .hero {
+  padding-top: 200px;
+  height: 600px;
   text-align: center;
 }
 .hero-title {
   margin: 0;
+
   margin-bottom: 46px;
   color: var(--primary-white-color);
 
@@ -158,6 +161,8 @@ h5 {
 }
 
 .button-hero {
+  height: 50px;
+  min-width: 200px;
   padding: 0;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -175,7 +180,6 @@ h5 {
 /* Преимущества */
 .advantages {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .advantages h2 {
@@ -183,12 +187,23 @@ h5 {
 }
 .advantages-list {
   display: flex;
-  justify-content: space-between;
 
   margin: 0px;
+  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+}
+.pic-block {
+  height: 120px;
+  margin-bottom: 30px;
 }
 .advantages-list .item {
-  width: 278px;
+  width: 270px;
+}
+.advantages-list .item {
+  margin-right: 30px;
+}
+.advantages-list .item:nth-child(4n) {
+  margin-right: 0px;
 }
 
 .advantages-title {
@@ -203,15 +218,13 @@ h5 {
   text-transform: uppercase;
 }
 .picture {
-  margin-bottom: 30px;
 }
 .advantages-text {
-  display: inline;
   color: var(--primary-text-color);
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   margin: 0px;
 }
 /* Чем мы занимаемся */
@@ -219,12 +232,21 @@ h5 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.we-do .title {
+  margin-bottom: 50px;
+}
 .we-do-list {
   display: flex;
-  justify-content: space-between;
-
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.we-do-item {
+  width: 370px;
+  height: 294px;
+  margin-right: 30px;
+}
+.we-do-list .we-do-item:nth-child(3) {
+  margin-right: 0px;
 }
 .we-do-title,
 .follow {
@@ -235,12 +257,6 @@ h5 {
   line-height: 1.14;
 
   text-transform: uppercase;
-}
-.we-do .title {
-  margin-bottom: 50px;
-}
-.we-do-title {
-  margin-top: -20px;
 }
 
 .team {
@@ -255,7 +271,12 @@ h5 {
 
   margin-top: 0px;
   margin-bottom: 0px;
-  justify-content: space-between;
+}
+.team-item {
+  margin-right: 30px;
+}
+.team-list .team-item:nth-child(4) {
+  margin-right: 0px;
 }
 .photo-member {
   margin-bottom: 30px;
