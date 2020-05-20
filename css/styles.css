@@ -51,7 +51,7 @@ h5 {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .border-nav {
   border-bottom: 1px solid #ececec;
@@ -59,17 +59,18 @@ h5 {
 
 .site-header {
   display: flex;
-  justify-content: space-between;
+  height: 80px;
   align-items: center;
 }
 .site-nav {
   display: flex;
   align-items: center;
-  margin-right: 305px;
 }
 
 /* Лого сайта */
-
+.site-logo {
+  margin-right: 85px;
+}
 .site-logo {
   color: var(--title-text-color);
 
@@ -77,7 +78,7 @@ h5 {
 
   font-weight: 700;
   font-size: 26px;
-  /* line-height: 1.37; */
+  line-height: 1.37;
 }
 .site-logo span {
   color: var(--accent-color);
@@ -104,15 +105,15 @@ h5 {
   display: flex;
   padding: 0px;
   margin: 0px;
-  margin-left: 86px;
+  margin-right: 305px;
+
   align-items: center;
 }
 .site-list .item {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-.site-list .item:not(:last-child) {
   margin-right: 50px;
+}
+.site-list .item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 /* Список контактов с представителями сайта */
@@ -136,8 +137,8 @@ h5 {
 .site-contacts .item:not(:last-child) {
   margin-right: 30px;
 }
-.contacts-item {
-  margin-left: 10px;
+.pic-contacts {
+  margin-right: 8px;
 }
 
 /* Герой */
@@ -204,6 +205,7 @@ h5 {
 }
 .advantages-list .item {
   width: 270px;
+  height: 251px;
 }
 .advantages-list .item {
   margin-right: 30px;
@@ -223,8 +225,7 @@ h5 {
 
   text-transform: uppercase;
 }
-.picture {
-}
+
 .advantages-text {
   color: var(--primary-text-color);
 
@@ -348,7 +349,7 @@ h5 {
 .social-networks-footer .icon-radius {
   margin-right: 10px;
 }
-.social-networks-footer .icon-radius :nth-child(4) {
+.social-networks-footer .icon-radius:nth-child(4) {
   margin-right: 0px;
 }
 .our-clients {
@@ -409,13 +410,11 @@ h5 {
 .address-flex .site-logo {
   display: inline-block;
   margin-bottom: 10px;
+  margin-right: 0px;
 }
 
 .footer-flex .social-networks {
   padding-bottom: 0px;
-}
-.footer-flex .site-logo {
-  margin-bottom: 20px;
 }
 
 .down {
