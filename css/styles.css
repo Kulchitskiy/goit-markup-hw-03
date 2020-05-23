@@ -36,13 +36,16 @@ h5 {
 .accessibility {
   display: none;
 }
+.img-block {
+  display: block;
+}
 
 .title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   margin-bottom: 50px;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 .container {
@@ -59,7 +62,8 @@ h5 {
 
 .site-header {
   display: flex;
-  height: 80px;
+  justify-content: space-between;
+
   align-items: center;
 }
 .site-nav {
@@ -101,11 +105,16 @@ h5 {
 .site-list .list-item:focus {
   color: var(--accent-color);
 }
+.list-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .site-list {
   display: flex;
   padding: 0px;
   margin: 0px;
-  margin-right: 305px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   align-items: center;
 }
@@ -264,6 +273,13 @@ h5 {
   line-height: 1.14;
 
   text-transform: uppercase;
+}
+.we-do-title {
+  text-align: center;
+}
+.we-do-title-box {
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
 .team {
@@ -454,7 +470,7 @@ h5 {
   color: rgba(255, 255, 255, 0.4);
   margin: 0px;
   margin-top: 18px;
-  margin-bottom: 21px;
+  padding-bottom: 21px;
   text-align: center;
 }
 /*Страница портфоли main */
@@ -470,7 +486,7 @@ h5 {
   margin-right: 8px;
 }
 .choice-item {
-  padding: 6px;
+  padding: 6px 22px;
   border: 0px;
 }
 .choice-list .item:nth-child(5n) {
@@ -500,11 +516,16 @@ button:focus {
   padding: 0px;
   padding-bottom: 94px;
 }
+.portfolio-block {
+  width: 370px;
+  height: 110px;
+  padding: 20px 24px;
+}
 .portfolio .item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
+
   border: 1px solid #eeeeee;
   border-radius: 5px;
 }
@@ -514,9 +535,7 @@ button:focus {
 .portfolio .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.img-portfoli {
-  margin-bottom: 20px;
-}
+
 .portfolio-title {
   color: var(--title-text-color);
 
@@ -526,11 +545,10 @@ button:focus {
 
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 .portfolio-description {
   margin: 0px;
-  margin-left: 24px;
+
   color: var(--primary-text-color);
 
   font-weight: 400;
